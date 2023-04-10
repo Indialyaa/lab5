@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #2e2a2d;
+  text-align: center;
+  /* margin-top: 30px; */
+}
+
+table {
+  border: ridge 2px #0ba9f3;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  margin: 10px auto 10px auto;
+  text-align: center;
+}
+
+table tbody td {
+  border: ridge 2px #0ba9f3;
+  color: #000000;
+  padding: 10px;
+}
+
+table tbody td img{
+  object-fit: cover;
+  object-position: top;
+}
+
+select {
+  padding: 6px;
+  width: 28%;
+}
+
+nav {
+  background-color: #0ba9f3;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  left: 0;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: hsl(0, 0%, 0%);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.content {
+  /* background-color: #a676b3; */
+  padding: 50px 20px;
+  margin-bottom: 20px;
+  mix-blend-mode: color-burn;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  margin: 40px auto;
+  color: black;
+}
+
+.container .main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  background-color:#827d82;
+
+  padding: 10px;
+  color: #eee;
+  border-radius: 2px;
+  font-family: "Raleway SemiBold", sans-serif;
+  margin-top: 2px ;
+}
+.container .main form{
+  width: 400px;
+  padding: 20px;
+  margin: 5px auto;
+  border: 1px solid black;
+  background-color: #0ba9f3;
+}
+
+.container .main form .input label{
+  display: block;
+  margin: 10px 0 5px 0;
+  font-size: 15px;
+}
+
+.container .main form .input input[type="text"], .container .main form .input select{
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.container .main form .input input[type="file"]{
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+
+
+.container .main form .input .label{
+  padding: 3px;
+  background-color: violet;
+}
+
+.container .main form .submit input[type="submit"]{
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 100%;
+  padding: 5px 0;
+} 
